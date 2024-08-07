@@ -23,18 +23,21 @@ mkdir my_project
 cd my_project
 git init
 ```
+```
+mkdir first1111
+```
 Это лишь некоторые функции markdown.
 HEAD -- это голова.
 Коммит -- это всему голова.
 Статусы файлов:
 <тут пустая строка!>
 
-```mermaid
+```
 %% описание схемы
 ```
 <и тут пустая строка!>
 
-```mermaid
+```
 graph LR;
   untracked -- "git add" --> staged;
   staged    -- "???"     --> tracked/comitted;
